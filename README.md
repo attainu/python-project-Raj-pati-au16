@@ -15,7 +15,9 @@ This repository gives an overview of how we can design a basic parking lot in Py
 **status**- Prints the slot number, registration number and color of the parked vehicles.
 
 **leave x** - Removes vehicle from slot number x. There are few query functions to retrieve slot number from registration number of car, get registration numbers of cars with particular color etc.
+#
+1.**entities** file contains all sub modules required for managingparkinglot.
 
-1.entities file contains all sub modules required for managingparkinglot.
+2.**Main.py** file for execution the program , here i import 2 module _"FileInput"_ for read and run all the commands from the 'abc.txt' file and _"Interactive"_ for manual input.
 
-2.Main.py file for execution the program , here i import 2 module _"FileInput"_ for read and run all the commands from the 'abc.txt' file and _"Interactive"_ for manual input.
+3.**managingparkinglot.py**, Here i have imported all the modules from entities.
